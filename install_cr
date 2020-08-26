@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "Installing Dependencies"
+#Clean Yum Cache
+yum clean all
+rm -rf /var/cache/yum
+
+yum install wget -y
+
+echo "Downloading Repo"
+rm -rf /etc/yum.repos.d/vitalpbx-cr.repo
+wget -P /etc/yum.repos.d/ https://raw.githubusercontent.com/VitalPBX/vitalpbx-cr-repo/master/vitalpbx-cr.repo
+
+echo "Done"
