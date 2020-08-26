@@ -1,0 +1,6 @@
+[vitalpbx-cr]
+name=VitalPBX Continuous Release (CR) Repository
+baseurl=http://repo.vitalpbx.org/vitalpbx/v3/cr/
+gpgcheck=0
+enabled=1
+skip_if_unavailable = 1
