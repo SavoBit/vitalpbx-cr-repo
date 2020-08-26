@@ -9,7 +9,7 @@ The purpose of this repo is to make available packages that will appear in the n
 yum install curl -y
 </pre>
 
-2- Execute Installer. You must be logged in as root
+2- Execute Installer (You must be logged in as root)
 <pre>
 curl -sL https://raw.githubusercontent.com/VitalPBX/vitalpbx-cr-repo/master/install_cr | sudo bash -
 </pre>
